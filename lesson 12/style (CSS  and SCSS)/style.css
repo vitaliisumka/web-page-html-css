@@ -1,0 +1,1648 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat-regular';
+  src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat-light';
+  src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+body .header {
+  width: 1440px;
+  height: 700px;
+  background-image: url(../images/header/Background.png);
+  margin: 0 auto;
+}
+
+body .header .navbar {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .header .navbar .dreamshare {
+  position: relative;
+  left: -30px;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+body .header .navbar .log-sign-up {
+  width: 177px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .header .navbar .log-sign-up .header-login {
+  font-family: 'Montserrat-Regular';
+  font-size: 13px;
+  font-weight: 400;
+  color: #E3E3E3;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  word-spacing: 2px;
+}
+
+body .header .navbar .log-sign-up .header-sign-up {
+  font-family: 'Montserrat-Regular';
+  width: 90px;
+  height: 36px;
+  border: 2px solid white;
+  border-radius: 40px;
+  color: #E3E3E3;
+  font-size: 13px;
+  word-spacing: 2px;
+  font-weight: 400;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+body .header .header-centr {
+  width: 1440px;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 53px;
+}
+
+body .header .header-centr h1 {
+  text-transform: uppercase;
+  font-size: 52px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+body .header .header-centr .header-text {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 300;
+  color: #E3E3E3;
+  display: block;
+  text-align: center;
+  margin-top: 25px;
+}
+
+body .header .header-centr .header-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 32px;
+}
+
+body .header .header-centr .header-form .header-button {
+  font-family: 'Montserrat-Regular';
+  width: 225px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: #FF4E50;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-align: center;
+}
+
+body main section h2 {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 89px;
+  margin-bottom: 35px;
+  color: #444444;
+}
+
+body main section .how-it-works {
+  width: 940px;
+  height: 461px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main section .how-it-works .step-1 {
+  width: 300px;
+  height: 400px;
+  background-image: url(../images/how-it-works/Step1.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-left: 25px;
+  padding-bottom: 20px;
+}
+
+body main section .how-it-works .step-1 .text-size-1 {
+  width: 250px;
+}
+
+body main section .how-it-works .step-1 .text-size-1 .border-step-1 {
+  font-family: 'Montserrat-Regular';
+  width: 70px;
+  height: 20px;
+  border-radius: 40px;
+  background-color: #FF4E50;
+  color: #E3E3E3;
+  font-weight: 400;
+  font-size: 9px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main section .how-it-works .step-1 .text-size-1 .text-step-1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 25px;
+  padding-top: 22px;
+  line-height: 26px;
+}
+
+body main section .how-it-works .step-1 .text-size-1 .roboto-step-1 {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  color: #bebebe;
+  line-height: 14px;
+}
+
+body main section .how-it-works .how-it-works-2 .step-2 {
+  width: 300px;
+  height: 400px;
+  background-image: url(../images/how-it-works/Step2.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-left: 25px;
+  padding-bottom: 20px;
+}
+
+body main section .how-it-works .how-it-works-2 .step-2 .text-size-2 {
+  width: 250px;
+}
+
+body main section .how-it-works .how-it-works-2 .step-2 .text-size-2 .border-step-2 {
+  font-family: 'Montserrat-Regular';
+  width: 70px;
+  height: 20px;
+  border-radius: 40px;
+  background-color: #FF4E50;
+  color: #E3E3E3;
+  font-weight: 400;
+  font-size: 9px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main section .how-it-works .how-it-works-2 .step-2 .text-size-2 .text-step-2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 18px;
+  padding-top: 24px;
+  line-height: 26px;
+}
+
+body main section .how-it-works .how-it-works-2 .step-2 .text-size-2 .roboto-step-2 {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  color: #bebebe;
+  line-height: 14px;
+}
+
+body main section .how-it-works .step-3 {
+  width: 300px;
+  height: 400px;
+  background-image: url(../images/how-it-works/Step3.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-left: 25px;
+  padding-bottom: 20px;
+}
+
+body main section .how-it-works .step-3 .text-size-3 {
+  width: 250px;
+}
+
+body main section .how-it-works .step-3 .text-size-3 .border-step-3 {
+  font-family: 'Montserrat-Regular';
+  width: 70px;
+  height: 20px;
+  border-radius: 40px;
+  background-color: #FF4E50;
+  color: #E3E3E3;
+  font-weight: 400;
+  font-size: 9px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main section .how-it-works .step-3 .text-size-3 .text-step-3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 25px;
+  padding-top: 22px;
+  line-height: 26px;
+}
+
+body main section .how-it-works .step-3 .text-size-3 .roboto-step-3 {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  color: #bebebe;
+  line-height: 14px;
+}
+
+body main .meet-partner {
+  width: 945px;
+  height: 360px;
+  margin: 28px auto;
+}
+
+body main .meet-partner h3 {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #444444;
+}
+
+body main .meet-partner .list-meet-partner {
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main .meet-partner .list-meet-partner .line-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 471px;
+}
+
+body main .meet-partner .list-meet-partner .line-1 .bradley-hunter {
+  width: 220px;
+  height: 205px;
+  text-align: center;
+}
+
+body main .meet-partner .list-meet-partner .line-1 .bradley-hunter .foto-size {
+  width: 118px;
+  height: 120px;
+  position: relative;
+  margin: 0 auto;
+}
+
+body main .meet-partner .list-meet-partner .line-1 .bradley-hunter .foto-size .logo-music {
+  position: absolute;
+  left: 88px;
+  top: 88px;
+  width: 32px;
+  height: 32px;
+  background-color: #FF4E50;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../images/meet-partner/Bradley-Hunter-music-logo.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+body main .meet-partner .list-meet-partner .line-1 .bradley-hunter .p-bradley-hunter {
+  margin-top: 18px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #444444;
+}
+
+body main .meet-partner .list-meet-partner .line-1 .bradley-hunter .text-bradley-hunter {
+  margin-top: 22px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  color: #666666;
+  line-height: 14px;
+}
+
+body main .meet-partner .list-meet-partner .line-1 .marie-bennett {
+  width: 220px;
+  height: 205px;
+  text-align: center;
+}
+
+body main .meet-partner .list-meet-partner .line-1 .marie-bennett .foto-size {
+  width: 118px;
+  height: 120px;
+  position: relative;
+  margin: 0 auto;
+}
+
+body main .meet-partner .list-meet-partner .line-1 .marie-bennett .foto-size .logo-music {
+  position: absolute;
+  left: 88px;
+  top: 88px;
+  width: 32px;
+  height: 32px;
+  background-color: #19D4CA;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../images/meet-partner/Marie-Bennett-shape-logo.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+body main .meet-partner .list-meet-partner .line-1 .marie-bennett .p-marie-bennett {
+  margin-top: 18px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #444444;
+}
+
+body main .meet-partner .list-meet-partner .line-1 .marie-bennett .text-marie-bennett {
+  margin-top: 22px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  color: #666666;
+  line-height: 14px;
+}
+
+body main .meet-partner .list-meet-partner .line-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 471px;
+}
+
+body main .meet-partner .list-meet-partner .line-2 .diana-wells {
+  width: 220px;
+  height: 205px;
+  text-align: center;
+}
+
+body main .meet-partner .list-meet-partner .line-2 .diana-wells .foto-size {
+  width: 118px;
+  height: 120px;
+  position: relative;
+  margin: 0 auto;
+}
+
+body main .meet-partner .list-meet-partner .line-2 .diana-wells .foto-size .logo-music {
+  position: absolute;
+  left: 88px;
+  top: 88px;
+  width: 32px;
+  height: 32px;
+  background-color: #FFA710;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../images/meet-partner/Diana-Wells-camera-logo.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+body main .meet-partner .list-meet-partner .line-2 .diana-wells .p-diana-wells {
+  margin-top: 18px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #444444;
+}
+
+body main .meet-partner .list-meet-partner .line-2 .diana-wells .text-diana-wells {
+  margin-top: 27px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  color: #666666;
+  line-height: 14px;
+}
+
+body main .meet-partner .list-meet-partner .line-2 .christopher-pierce {
+  width: 220px;
+  height: 205px;
+  text-align: center;
+}
+
+body main .meet-partner .list-meet-partner .line-2 .christopher-pierce .foto-size {
+  width: 118px;
+  height: 120px;
+  position: relative;
+  margin: 0 auto;
+}
+
+body main .meet-partner .list-meet-partner .line-2 .christopher-pierce .foto-size .logo-music {
+  position: absolute;
+  left: 88px;
+  top: 88px;
+  width: 32px;
+  height: 32px;
+  background-color: #667DF3;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../images/meet-partner/Christopher-Pierce-airplane-logo.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+body main .meet-partner .list-meet-partner .line-2 .christopher-pierce .p-christopher-pierce {
+  margin-top: 18px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #444444;
+}
+
+body main .meet-partner .list-meet-partner .line-2 .christopher-pierce .text-christopher-pierce {
+  margin-top: 27px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  color: #666666;
+  line-height: 14px;
+}
+
+body main .meet-partner .button-meet-partner {
+  margin: 55px auto;
+  width: 180px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #FF4E50;
+  border: 2px solid #FF4E50;
+  border-radius: 40px;
+  background: transparent;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main .ideas {
+  width: 940px;
+  height: 1030px;
+  margin: 96px auto;
+}
+
+body main .ideas h4 {
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+  color: #444444;
+}
+
+body main .ideas .foto-section-1 {
+  width: 940px;
+  height: 310px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 35px;
+}
+
+body main .ideas .foto-section-1 .sports-and-activis {
+  width: 300px;
+  height: 310px;
+  background-image: url(../images/ideas/Sport-and-Activis.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .ideas .foto-section-1 .sports-and-activis .text-center {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  line-height: 27px;
+}
+
+body main .ideas .foto-section-1 .wellness-and-health {
+  width: 300px;
+  height: 310px;
+  background-image: url(../images/ideas/Wellness-and-Health.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .ideas .foto-section-1 .wellness-and-health .text-center {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  line-height: 27px;
+}
+
+body main .ideas .foto-section-1 .extreme-sports {
+  width: 300px;
+  height: 310px;
+  background-image: url(../images/ideas/Extreme.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .ideas .foto-section-1 .extreme-sports .text-center {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  line-height: 27px;
+  text-align: center;
+}
+
+body main .ideas .foto-section-2 {
+  width: 940px;
+  height: 310px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+body main .ideas .foto-section-2 .games {
+  width: 300px;
+  height: 310px;
+  background-image: url(../images/ideas/Games.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .ideas .foto-section-2 .games .text-center {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  line-height: 27px;
+}
+
+body main .ideas .foto-section-2 .culture-and-education {
+  width: 620px;
+  height: 310px;
+  background-image: url(../images/ideas/Culture-education.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .ideas .foto-section-2 .culture-and-education .text-center {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  line-height: 27px;
+}
+
+body main .ideas .foto-section-3 {
+  width: 940px;
+  height: 310px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+body main .ideas .foto-section-3 .enjomet-and-relaxation {
+  width: 620px;
+  height: 310px;
+  background-image: url(../images/ideas/Culture-Copy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .ideas .foto-section-3 .enjomet-and-relaxation .text-center {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  line-height: 27px;
+}
+
+body main .ideas .foto-section-3 .trevelling {
+  width: 300px;
+  height: 310px;
+  background-image: url(../images/ideas/travel.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .ideas .foto-section-3 .trevelling .text-center {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  line-height: 27px;
+}
+
+body main .interests {
+  width: 482px;
+  height: 158px;
+  margin: 0 auto;
+  color: #444444;
+}
+
+body main .interests h5 {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+}
+
+body main .interests .interests-form .interests-form-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 300;
+  color: #666666;
+  text-align: center;
+  margin-top: 49px;
+}
+
+body main .interests .interests-form .form-place {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 21px auto;
+}
+
+body main .interests .interests-form .form-place .search-button {
+  width: 299px;
+  height: 40px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  opacity: 60%;
+  border: 1px solid #bebebe;
+  border-radius: 3px;
+  outline: none;
+  padding-left: 15px;
+}
+
+body main .interests .interests-form .form-place .interests-button-submit {
+  font-family: 'Montserrat-Regular';
+  width: 172px;
+  height: 40px;
+  background-color: #FF4E50;
+  border-radius: 40px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+
+body .footer {
+  width: 1440px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 106px;
+}
+
+body .footer .red-line {
+  width: 1440px;
+  height: 2px;
+  background-color: #FF4E50;
+}
+
+body .footer .footer-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .footer .footer-article .block-1 {
+  width: 368px;
+  height: 57px;
+}
+
+body .footer .footer-article .block-1 .footer-dreamshare {
+  font-family: 'Montserrat-Regular';
+  height: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FF4E50;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body .footer .footer-article .block-2 {
+  width: 302px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 38px;
+}
+
+body .footer .footer-article .block-2 .footer-list .footer-company {
+  font-size: 14px;
+  font-weight: 700;
+  color: #444444;
+}
+
+body .footer .footer-article .block-2 .footer-list ul {
+  margin-top: 15px;
+}
+
+body .footer .footer-article .block-2 .footer-list ul li {
+  list-style: none;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  color: #999999;
+  margin-top: 9px;
+}
+
+body .footer .footer-article .block-2 .footer-list-2 {
+  display: none;
+}
+
+body .footer .footer-article .block-2 .partners {
+  font-size: 14px;
+  font-weight: 700;
+  color: #444444;
+}
+
+body .footer .footer-article .block-3 {
+  width: 528px;
+  padding-left: 168px;
+  padding-top: 38px;
+}
+
+body .footer .footer-article .block-3 .content-block-3 {
+  width: 111px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 1px;
+}
+
+body .footer .footer-article .block-3 .content-block-3 .design {
+  font-family: 'Montserrat-Regular';
+  font-weight: 700;
+  font-size: 9px;
+  color: #CCCCCC;
+  text-align: end;
+  letter-spacing: 2px;
+}
+
+body .footer .footer-article .block-3 .content-block-3 .logo-design {
+  margin-top: 7px;
+}
+
+@media screen and (max-width: 1439px) {
+  body .header {
+    width: 768px;
+    background-position: center;
+  }
+  body .header .header-centr {
+    width: 768px;
+  }
+  body .header .navbar .dreamshare {
+    left: -62px;
+  }
+  body .header .navbar .log-sign-up {
+    position: relative;
+    right: -72px;
+  }
+  body main section h2 {
+    font-size: 22px;
+    margin-top: 94px;
+  }
+  body main section .how-it-works {
+    width: 748px;
+  }
+  body main section .how-it-works .step-1 {
+    width: 236px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+  }
+  body main section .how-it-works .step-1 .text-size-1 {
+    width: 187px;
+  }
+  body main section .how-it-works .step-1 .text-size-1 .text-step-1 {
+    line-height: 14px;
+    padding-bottom: 30px;
+    padding-top: 46px;
+  }
+  body main section .how-it-works .how-it-works-2 .step-2 {
+    width: 236px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+  }
+  body main section .how-it-works .how-it-works-2 .step-2 .text-size-2 {
+    width: 187px;
+  }
+  body main section .how-it-works .how-it-works-2 .step-2 .text-size-2 .text-step-2 {
+    line-height: 14px;
+    padding-bottom: 24px;
+    padding-top: 16px;
+  }
+  body main section .how-it-works .step-3 {
+    width: 236px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+  }
+  body main section .how-it-works .step-3 .text-size-3 {
+    width: 187px;
+  }
+  body main section .how-it-works .step-3 .text-size-3 .text-step-3 {
+    line-height: 14px;
+    padding-bottom: 30px;
+    padding-top: 45px;
+  }
+  body main .meet-partner {
+    width: 492px;
+    height: 605px;
+    margin-top: 33px;
+  }
+  body main .meet-partner h3 {
+    font-size: 22px;
+  }
+  body main .meet-partner .list-meet-partner .line-1 {
+    width: 472px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body main .meet-partner .list-meet-partner .line-1 .bradley-hunter {
+    width: 236px;
+  }
+  body main .meet-partner .list-meet-partner .line-1 .marie-bennett {
+    width: 236px;
+    margin-top: 55px;
+  }
+  body main .meet-partner .list-meet-partner .line-2 {
+    width: 472px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 20px;
+  }
+  body main .meet-partner .list-meet-partner .line-2 .diana-wells {
+    width: 236px;
+  }
+  body main .meet-partner .list-meet-partner .line-2 .christopher-pierce {
+    width: 236px;
+    margin-top: 55px;
+  }
+  body main .meet-partner .list-meet-partner .line-2 .christopher-pierce .text-christopher-pierce {
+    margin-top: 22px;
+  }
+  body main .meet-partner .button-meet-partner {
+    margin-top: 40px;
+  }
+  body main .ideas {
+    width: 748px;
+  }
+  body main .ideas h4 {
+    font-size: 22px;
+  }
+  body main .ideas article .foto-section-1 {
+    width: 748px;
+  }
+  body main .ideas article .foto-section-1 .sports-and-activis {
+    width: 236px;
+    background-position: center;
+  }
+  body main .ideas article .foto-section-1 .sports-and-activis .text-center {
+    width: 150px;
+    text-align: center;
+    margin-bottom: 28px;
+  }
+  body main .ideas article .foto-section-1 .wellness-and-health {
+    width: 236px;
+    background-position: center;
+    text-align: center;
+  }
+  body main .ideas article .foto-section-1 .extreme-sports {
+    width: 236px;
+    background-position: center;
+  }
+  body main .ideas article .foto-section-2 {
+    width: 748px;
+  }
+  body main .ideas article .foto-section-2 .games {
+    width: 236px;
+    background-position: center;
+  }
+  body main .ideas article .foto-section-2 .culture-and-education {
+    width: 492px;
+    background-position: center;
+  }
+  body main .ideas article .foto-section-3 {
+    width: 748px;
+  }
+  body main .ideas article .foto-section-3 .enjomet-and-relaxation {
+    width: 492px;
+  }
+  body main .ideas article .foto-section-3 .trevelling {
+    width: 236px;
+  }
+  body main .interests h5 {
+    font-size: 22px;
+  }
+  body .footer {
+    width: 768px;
+    margin-top: 100px;
+  }
+  body .footer .red-line {
+    width: 768px;
+  }
+  body .footer .footer-article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body .footer .footer-article .block-1 {
+    width: 103px;
+  }
+  body .footer .footer-article .block-2 {
+    width: 233px;
+  }
+  body .footer .footer-article .block-2 .footer-list-2 {
+    display: none;
+  }
+  body .footer .footer-article .block-3 {
+    width: 104px;
+    padding-left: 9px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body .header {
+    width: 320px;
+    height: 540px;
+    background-position: center;
+    background-size: cover;
+  }
+  body .header .header-centr {
+    width: 280px;
+    height: 189px;
+    padding-bottom: 0px;
+    padding-left: 59px;
+  }
+  body .header .header-centr .center h1 {
+    font-size: 30px;
+    margin-top: 47px;
+  }
+  body .header .header-centr .center .header-text {
+    font-size: 18px;
+    margin-top: 6px;
+    line-height: 25px;
+  }
+  body .header .header-centr .center .header-form {
+    margin-top: 14px;
+  }
+  body .header .header-centr .center .header-form .header-button {
+    width: 280px;
+  }
+  body .header .navbar {
+    padding-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  body .header .navbar .dreamshare {
+    left: 11px;
+    margin-top: 97px;
+  }
+  body .header .navbar .log-sign-up {
+    right: 0px;
+  }
+  body .header .navbar .log-sign-up .header-login {
+    color: white;
+  }
+  body .header .navbar .log-sign-up .header-sign-up {
+    color: white;
+  }
+  body main section h2 {
+    font-size: 22px;
+    margin-top: 34px;
+  }
+  body main section .how-it-works {
+    width: 300px;
+    height: 740px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: -20px;
+  }
+  body main section .how-it-works .step-1 {
+    width: 300px;
+    height: 240px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+  }
+  body main section .how-it-works .step-1 .text-size-1 {
+    width: 250px;
+  }
+  body main section .how-it-works .step-1 .text-size-1 .text-step-1 {
+    line-height: 14px;
+    padding-bottom: 25px;
+    padding-top: 46px;
+  }
+  body main section .how-it-works .how-it-works-2 .step-2 {
+    width: 300px;
+    height: 240px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    background-position: bottom;
+  }
+  body main section .how-it-works .how-it-works-2 .step-2 .text-size-2 {
+    width: 250px;
+  }
+  body main section .how-it-works .how-it-works-2 .step-2 .text-size-2 .text-step-2 {
+    line-height: 14px;
+    padding-bottom: 24px;
+    padding-top: 30px;
+  }
+  body main section .how-it-works .step-3 {
+    width: 300px;
+    height: 240px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    background-position: bottom;
+  }
+  body main section .how-it-works .step-3 .text-size-3 {
+    width: 250px;
+  }
+  body main section .how-it-works .step-3 .text-size-3 .text-step-3 {
+    line-height: 14px;
+    padding-bottom: 25px;
+    padding-top: 46px;
+  }
+  body main .meet-partner {
+    width: 300px;
+    height: 1100px;
+    margin-top: 36px;
+  }
+  body main .meet-partner h3 {
+    font-size: 22px;
+  }
+  body main .meet-partner .list-meet-partner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body main .meet-partner .list-meet-partner .line-1 {
+    width: 236px;
+    margin: -20px auto;
+  }
+  body main .meet-partner .list-meet-partner .line-1 .bradley-hunter {
+    width: 236px;
+  }
+  body main .meet-partner .list-meet-partner .line-1 .marie-bennett {
+    width: 236px;
+    margin-top: 15px;
+  }
+  body main .meet-partner .list-meet-partner .line-2 {
+    width: 236px;
+    margin: 55px auto;
+  }
+  body main .meet-partner .list-meet-partner .line-2 .diana-wells {
+    width: 236px;
+  }
+  body main .meet-partner .list-meet-partner .line-2 .christopher-pierce {
+    width: 236px;
+    margin-top: 35px;
+  }
+  body main .meet-partner .list-meet-partner .line-2 .christopher-pierce .text-christopher-pierce {
+    margin-top: 20px;
+  }
+  body main .meet-partner .button-meet-partner {
+    margin-top: -38px;
+    width: 280px;
+  }
+  body main .ideas {
+    width: 300px;
+    height: 1084px;
+    margin: -62px auto;
+  }
+  body main .ideas h4 {
+    font-size: 22px;
+    width: 250px;
+    margin: 0 auto;
+  }
+  body main .ideas article .foto-section-1 {
+    width: 300px;
+    height: 380px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 33px;
+  }
+  body main .ideas article .foto-section-1 .sports-and-activis {
+    width: 300px;
+    height: 120px;
+    background-position: center;
+    border-radius: 4px;
+  }
+  body main .ideas article .foto-section-1 .sports-and-activis .text-center {
+    width: 300px;
+    height: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0px;
+  }
+  body main .ideas article .foto-section-1 .wellness-and-health {
+    width: 300px;
+    height: 120px;
+    background-position: center;
+    text-align: center;
+    border-radius: 4px;
+  }
+  body main .ideas article .foto-section-1 .extreme-sports {
+    width: 300px;
+    height: 120px;
+    background-position: center;
+    border-radius: 4px;
+  }
+  body main .ideas article .foto-section-2 {
+    width: 300px;
+    height: 250px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 10px;
+  }
+  body main .ideas article .foto-section-2 .games {
+    width: 300px;
+    height: 120px;
+    background-position: center;
+    border-radius: 4px;
+  }
+  body main .ideas article .foto-section-2 .culture-and-education {
+    width: 300px;
+    height: 120px;
+    background-position: center;
+    border-radius: 4px;
+  }
+  body main .ideas article .foto-section-3 {
+    width: 300px;
+    height: 250px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-radius: 4px;
+    margin-top: 10px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body main .ideas article .foto-section-3 .enjomet-and-relaxation {
+    width: 300px;
+    height: 120px;
+    border-radius: 4px;
+  }
+  body main .ideas article .foto-section-3 .trevelling {
+    width: 300px;
+    height: 120px;
+    border-radius: 4px;
+  }
+  body main .interests {
+    width: 300px;
+  }
+  body main .interests h5 {
+    font-size: 22px;
+  }
+  body main .interests .interests-form .interests-form-text {
+    margin-top: 15px;
+  }
+  body main .interests .interests-form .form-place {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 11px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body main .interests .interests-form .form-place .search-button {
+    width: 280px;
+  }
+  body main .interests .interests-form .form-place .interests-button-submit {
+    width: 280px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  body .footer {
+    width: 320px;
+    margin-top: 74px;
+  }
+  body .footer .red-line {
+    width: 320px;
+  }
+  body .footer .footer-article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .footer .footer-article .block-1 {
+    width: 320px;
+    height: 52px;
+  }
+  body .footer .footer-article .block-1 .footer-dreamshare {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 3px;
+  }
+  body .footer .footer-article .block-2 {
+    width: 320px;
+    height: 107px;
+    padding-top: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: -25px;
+  }
+  body .footer .footer-article .block-2 .footer-list .footer-company {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .footer .footer-article .block-2 .footer-list ul {
+    width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 65px;
+    margin-top: -4px;
+    padding-bottom: 6px;
+  }
+  body .footer .footer-article .block-2 .footer-list ul li {
+    margin-right: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .footer .footer-article .block-2 .footer-list ul .flex-li {
+    display: none;
+    width: 320px;
+    margin-left: 65px;
+    margin-top: -4px;
+  }
+  body .footer .footer-article .block-2 .footer-list-2 {
+    display: block;
+    margin-left: 83px;
+    padding-bottom: 11px;
+  }
+  body .footer .footer-article .block-2 .footer-list-2 .footer-a {
+    font-family: 'Roboto';
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 14px;
+    color: #999999;
+    margin-right: 8px;
+  }
+  body .footer .footer-article .block-2 .footer-list-2 .footer-a-2 {
+    font-family: 'Roboto';
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 14px;
+    color: #999999;
+  }
+  body .footer .footer-article .block-2 .partners {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 110px;
+  }
+  body .footer .footer-article .block-3 {
+    position: relative;
+    width: 320px;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  body .footer .footer-article .block-3 .content-block-3 {
+    width: 320px;
+  }
+  body .footer .footer-article .block-3 .content-block-3 .design {
+    text-align: center;
+    margin-left: 3px;
+  }
+  body .footer .footer-article .block-3 .content-block-3 .logo-design {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}

@@ -1,0 +1,854 @@
+@import '_fonts.scss';
+@import '_reset.scss';
+
+
+
+body {
+    font-family: 'Montserrat';
+
+    .header {
+        width: 1440px;
+        height: 700px;
+        background-image: url(../images/header/Background.png);
+        margin: 0 auto;
+
+        .navbar {
+            padding-top: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            justify-content: space-around;
+
+            .dreamshare {
+                position: relative;
+                left: -30px;
+                font-size: 20px;
+                color: white;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+
+            .log-sign-up {
+                width: 177px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+
+                .header-login {
+                    font-family: 'Montserrat-Regular';
+                    font-size: 13px;
+                    font-weight: 400;
+                    color: #E3E3E3;
+                    text-decoration: none;
+                    display: flex;
+                    text-align: center;
+                    word-spacing: 2px;
+                }
+
+                .header-sign-up {
+                    font-family: 'Montserrat-Regular';
+                    width: 90px;
+                    height: 36px;
+                    border: 2px solid white;
+                    border-radius: 40px;
+                    color: #E3E3E3;
+                    font-size: 13px;
+                    word-spacing: 2px;
+                    font-weight: 400;
+                    background: transparent;
+                    outline: none;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .header-centr {
+            width: 1440px;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 53px;
+
+            h1 {
+                text-transform: uppercase;
+                font-size: 52px;
+                font-weight: 700;
+                color: white;
+                text-align: center;
+            }
+
+            .header-text {
+                font-family: 'Roboto';
+                font-size: 24px;
+                font-weight: 300;
+                color: #E3E3E3;
+                display: block;
+                text-align: center;
+                margin-top: 25px;
+            }
+
+            .header-form {
+                display: flex;
+                justify-content: center;
+                margin-top: 32px;
+
+                .header-button {
+                    font-family: 'Montserrat-Regular';
+                    width: 225px;
+                    height: 40px;
+                    border: none;
+                    outline: none;
+                    border-radius: 40px;
+                    font-size: 13px;
+                    font-weight: 600;
+                    background-color: #FF4E50;
+                    color: white;
+                    letter-spacing: 1px;
+                    cursor: pointer;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    main {
+        section {
+            h2 {
+                font-size: 26px;
+                font-weight: 700;
+                text-align: center;
+                margin-top: 89px;
+                margin-bottom: 35px;
+                color: #444444;
+            }
+
+
+            .how-it-works {
+                width: 940px;
+                height: 461px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+
+                .step-1 {
+                    width: 300px;
+                    height: 400px;
+                    background-image: url(../images/how-it-works/Step1.png);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    padding-left: 25px;
+                    padding-bottom: 20px;
+
+                    .text-size-1 {
+                        width: 250px;
+
+                        .border-step-1 {
+                            font-family: 'Montserrat-Regular';
+                            width: 70px;
+                            height: 20px;
+                            border-radius: 40px;
+                            background-color: #FF4E50;
+                            color: #E3E3E3;
+                            font-weight: 400;
+                            font-size: 9px;
+                            letter-spacing: 3px;
+                            text-transform: uppercase;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                        .text-step-1 {
+                            font-size: 24px;
+                            font-weight: 700;
+                            color: white;
+                            padding-bottom: 25px;
+                            padding-top: 22px;
+                            line-height: 26px;
+                        }
+
+                        .roboto-step-1 {
+                            font-family: 'Roboto';
+                            font-size: 14px;
+                            font-weight: 300;
+                            color: #bebebe;
+                            line-height: 14px;
+                        }
+                    }
+                }
+
+                .how-it-works-2 {
+                    .step-2 {
+                        width: 300px;
+                        height: 400px;
+                        background-image: url(../images/how-it-works/Step2.png);
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                        padding-left: 25px;
+                        padding-bottom: 20px;
+
+                        .text-size-2 {
+                            width: 250px;
+
+                            .border-step-2 {
+                                font-family: 'Montserrat-Regular';
+                                width: 70px;
+                                height: 20px;
+                                border-radius: 40px;
+                                background-color: #FF4E50;
+                                color: #E3E3E3;
+                                font-weight: 400;
+                                font-size: 9px;
+                                letter-spacing: 3px;
+                                text-transform: uppercase;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+
+                            .text-step-2 {
+                                font-size: 24px;
+                                font-weight: 700;
+                                color: white;
+                                padding-bottom: 18px;
+                                padding-top: 24px;
+                                line-height: 26px;
+                            }
+
+                            .roboto-step-2 {
+                                font-family: 'Roboto';
+                                font-size: 14px;
+                                font-weight: 300;
+                                color: #bebebe;
+                                line-height: 14px;
+                            }
+                        }
+                    }
+                }
+
+
+
+
+                .step-3 {
+                    width: 300px;
+                    height: 400px;
+                    background-image: url(../images/how-it-works/Step3.png);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    padding-left: 25px;
+                    padding-bottom: 20px;
+
+                    .text-size-3 {
+                        width: 250px;
+
+                        .border-step-3 {
+                            font-family: 'Montserrat-Regular';
+                            width: 70px;
+                            height: 20px;
+                            border-radius: 40px;
+                            background-color: #FF4E50;
+                            color: #E3E3E3;
+                            font-weight: 400;
+                            font-size: 9px;
+                            letter-spacing: 3px;
+                            text-transform: uppercase;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                        }
+
+                        .text-step-3 {
+                            font-size: 24px;
+                            font-weight: 700;
+                            color: white;
+                            padding-bottom: 25px;
+                            padding-top: 22px;
+                            line-height: 26px;
+                        }
+
+                        .roboto-step-3 {
+                            font-family: 'Roboto';
+                            font-size: 14px;
+                            font-weight: 300;
+                            color: #bebebe;
+                            line-height: 14px;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .meet-partner {
+            width: 945px;
+            height: 360px;
+            margin: 28px auto;
+
+
+            h3 {
+                font-size: 26px;
+                font-weight: 700;
+                text-align: center;
+                color: #444444;
+            }
+
+            .list-meet-partner {
+                margin-top: 35px;
+                display: flex;
+                justify-content: space-between;
+
+                .line-1 {
+                    display: flex;
+                    justify-content: space-around;
+                    width: 471px;
+
+                    .bradley-hunter {
+                        width: 220px;
+                        height: 205px;
+                        text-align: center;
+
+
+                        .foto-size {
+                            width: 118px;
+                            height: 120px;
+                            position: relative;
+                            margin: 0 auto;
+
+                            .logo-music {
+                                position: absolute;
+                                left: 88px;
+                                top: 88px;
+                                width: 32px;
+                                height: 32px;
+                                background-color: #FF4E50;
+                                border-radius: 50px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background-image: url(../images/meet-partner/Bradley-Hunter-music-logo.png);
+                                background-repeat: no-repeat;
+                                background-size: auto;
+                                background-position: center;
+                            }
+                        }
+
+                        .p-bradley-hunter {
+                            margin-top: 18px;
+                            font-size: 14px;
+                            font-weight: 700;
+                            color: #444444;
+                        }
+
+                        .text-bradley-hunter {
+                            margin-top: 22px;
+                            font-family: 'Roboto';
+                            font-size: 14px;
+                            font-weight: 300;
+                            color: #666666;
+                            line-height: 14px;
+                        }
+                    }
+
+
+
+                    .marie-bennett {
+                        width: 220px;
+                        height: 205px;
+                        text-align: center;
+
+                        .foto-size {
+                            width: 118px;
+                            height: 120px;
+                            position: relative;
+                            margin: 0 auto;
+
+                            .logo-music {
+                                position: absolute;
+                                left: 88px;
+                                top: 88px;
+                                width: 32px;
+                                height: 32px;
+                                background-color: #19D4CA;
+                                border-radius: 50px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background-image: url(../images/meet-partner/Marie-Bennett-shape-logo.png);
+                                background-repeat: no-repeat;
+                                background-size: auto;
+                                background-position: center;
+                            }
+                        }
+
+                        .p-marie-bennett {
+                            margin-top: 18px;
+                            font-size: 14px;
+                            font-weight: 700;
+                            color: #444444;
+                        }
+
+                        .text-marie-bennett {
+                            margin-top: 22px;
+                            font-family: 'Roboto';
+                            font-size: 14px;
+                            font-weight: 300;
+                            color: #666666;
+                            line-height: 14px;
+                        }
+                    }
+                }
+
+                .line-2 {
+                    display: flex;
+                    justify-content: space-around;
+                    width: 471px;
+
+                    .diana-wells {
+                        width: 220px;
+                        height: 205px;
+                        text-align: center;
+
+                        .foto-size {
+                            width: 118px;
+                            height: 120px;
+                            position: relative;
+                            margin: 0 auto;
+
+                            .logo-music {
+                                position: absolute;
+                                left: 88px;
+                                top: 88px;
+                                width: 32px;
+                                height: 32px;
+                                background-color: #FFA710;
+                                border-radius: 50px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background-image: url(../images/meet-partner/Diana-Wells-camera-logo.png);
+                                background-repeat: no-repeat;
+                                background-size: auto;
+                                background-position: center;
+                            }
+                        }
+
+                        .p-diana-wells {
+                            margin-top: 18px;
+                            font-size: 14px;
+                            font-weight: 700;
+                            color: #444444;
+                        }
+
+                        .text-diana-wells {
+                            margin-top: 27px;
+                            font-family: 'Roboto';
+                            font-size: 14px;
+                            font-weight: 300;
+                            color: #666666;
+                            line-height: 14px;
+                        }
+                    }
+
+                    .christopher-pierce {
+                        width: 220px;
+                        height: 205px;
+                        text-align: center;
+
+                        .foto-size {
+                            width: 118px;
+                            height: 120px;
+                            position: relative;
+                            margin: 0 auto;
+
+                            .logo-music {
+                                position: absolute;
+                                left: 88px;
+                                top: 88px;
+                                width: 32px;
+                                height: 32px;
+                                background-color: #667DF3;
+                                border-radius: 50px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background-image: url(../images/meet-partner/Christopher-Pierce-airplane-logo.png);
+                                background-repeat: no-repeat;
+                                background-size: auto;
+                                background-position: center;
+                            }
+                        }
+
+                        .p-christopher-pierce {
+                            margin-top: 18px;
+                            font-size: 14px;
+                            font-weight: 700;
+                            color: #444444;
+                        }
+
+                        .text-christopher-pierce {
+                            margin-top: 27px;
+                            font-family: 'Roboto';
+                            font-size: 14px;
+                            font-weight: 300;
+                            color: #666666;
+                            line-height: 14px;
+                        }
+                    }
+                }
+            }
+
+            .button-meet-partner {
+                margin: 55px auto;
+                width: 180px;
+                height: 40px;
+                font-size: 15px;
+                font-weight: 700;
+                color: #FF4E50;
+                border: 2px solid #FF4E50;
+                border-radius: 40px;
+                background: transparent;
+                text-align: center;
+                outline: none;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        .ideas {
+            width: 940px;
+            height: 1030px;
+            margin: 96px auto;
+
+            h4 {
+                font-weight: 700;
+                font-size: 26px;
+                text-align: center;
+                color: #444444;
+
+            }
+
+            .foto-section-1 {
+                width: 940px;
+                height: 310px;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 35px;
+
+                .sports-and-activis {
+                    width: 300px;
+                    height: 310px;
+                    background-image: url(../images/ideas/Sport-and-Activis.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .text-center {
+                        font-size: 22px;
+                        font-weight: 700;
+                        color: white;
+                        line-height: 27px;
+                    }
+                }
+
+                .wellness-and-health {
+                    width: 300px;
+                    height: 310px;
+                    background-image: url(../images/ideas/Wellness-and-Health.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .text-center {
+                        font-size: 22px;
+                        font-weight: 700;
+                        color: white;
+                        line-height: 27px;
+                    }
+                }
+
+                .extreme-sports {
+                    width: 300px;
+                    height: 310px;
+                    background-image: url(../images/ideas/Extreme.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .text-center {
+                        font-size: 22px;
+                        font-weight: 700;
+                        color: white;
+                        line-height: 27px;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .foto-section-2 {
+                width: 940px;
+                height: 310px;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+
+                .games {
+                    width: 300px;
+                    height: 310px;
+                    background-image: url(../images/ideas/Games.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .text-center {
+                        font-size: 22px;
+                        font-weight: 700;
+                        color: white;
+                        line-height: 27px;
+                    }
+                }
+
+                .culture-and-education {
+                    width: 620px;
+                    height: 310px;
+                    background-image: url(../images/ideas/Culture-education.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .text-center {
+                        font-size: 22px;
+                        font-weight: 700;
+                        color: white;
+                        line-height: 27px;
+                    }
+                }
+            }
+
+            .foto-section-3 {
+                width: 940px;
+                height: 310px;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+
+                .enjomet-and-relaxation {
+                    width: 620px;
+                    height: 310px;
+                    background-image: url(../images/ideas/Culture-Copy.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .text-center {
+                        font-size: 22px;
+                        font-weight: 700;
+                        color: white;
+                        line-height: 27px;
+                    }
+                }
+
+                .trevelling {
+                    width: 300px;
+                    height: 310px;
+                    background-image: url(../images/ideas/travel.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .text-center {
+                        font-size: 22px;
+                        font-weight: 700;
+                        color: white;
+                        line-height: 27px;
+                    }
+                }
+            }
+        }
+
+        .interests {
+            width: 482px;
+            height: 158px;
+            margin: 0 auto;
+            color: #444444;
+
+
+            h5 {
+                font-size: 26px;
+                font-weight: 700;
+                text-align: center;
+            }
+
+            .interests-form {
+
+                .interests-form-text {
+                    font-family: 'Roboto';
+                    font-size: 18px;
+                    font-weight: 300;
+                    color: #666666;
+                    text-align: center;
+                    margin-top: 49px;
+                }
+
+                .form-place {
+                    display: flex;
+                    margin: 21px auto;
+
+
+                    .search-button {
+                        width: 299px;
+                        height: 40px;
+                        font-family: 'Roboto';
+                        font-size: 14px;
+                        font-weight: 300;
+                        opacity: 60%;
+                        border: 1px solid #bebebe;
+                        border-radius: 3px;
+                        outline: none;
+                        padding-left: 15px;
+                    }
+
+                    .interests-button-submit {
+                        font-family: 'Montserrat-Regular';
+                        width: 172px;
+                        height: 40px;
+                        background-color: #FF4E50;
+                        border-radius: 40px;
+                        color: white;
+                        font-size: 13px;
+                        font-weight: 600;
+                        outline: none;
+                        border: none;
+                        cursor: pointer;
+                        margin-left: 10px;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        width: 1440px;
+        height: 250px;
+        margin: 0 auto;
+        margin-top: 106px;
+
+        .red-line {
+            width: 1440px;
+            height: 2px;
+            background-color: #FF4E50;
+        }
+
+        .footer-article {
+            display: flex;
+            justify-content: space-between;
+
+            .block-1 {
+                width: 368px;
+                height: 57px;
+
+                .footer-dreamshare {
+                    font-family: 'Montserrat-Regular';
+                    height: 100%;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #FF4E50;
+                    text-transform: uppercase;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: flex-end;
+                }
+            }
+
+            .block-2 {
+                width: 302px;
+                height: 200px;
+                display: flex;
+                justify-content: space-between;
+                padding-top: 38px;
+
+
+                .footer-list {
+                    .footer-company {
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: #444444;
+                    }
+
+                    ul {
+                        margin-top: 15px;
+
+                        li {
+                            list-style: none;
+                            font-family: 'Roboto';
+                            font-size: 14px;
+                            font-weight: 300;
+                            color: #999999;
+                            margin-top: 9px;
+                        }
+                    }
+                }
+
+                .footer-list-2 {
+                    display: none;
+                  
+                }
+
+                .partners {
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #444444;
+                }
+            }
+
+            .block-3 {
+                width: 528px;
+                padding-left: 168px;
+                padding-top: 38px;
+
+                .content-block-3 {
+                    width: 111px;
+                    height: 50px;
+                    display: flex;
+                    flex-direction: column;
+                    padding-top: 1px;
+
+                    .design {
+                        font-family: 'Montserrat-Regular';
+                        font-weight: 700;
+                        font-size: 9px;
+                        color: #CCCCCC;
+                        text-align: end;
+                        letter-spacing: 2px;
+                    }
+
+                    .logo-design {
+                        margin-top: 7px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@import '_media.scss';

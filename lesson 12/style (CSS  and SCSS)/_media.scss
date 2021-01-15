@@ -1,0 +1,674 @@
+@media screen and (max-width:1439px) {
+    body {
+        .header {
+            width: 768px;
+            background-position: center;
+
+            .header-centr {
+                width: 768px;
+            }
+
+            .navbar {
+                .dreamshare {
+                    left: -62px;
+                }
+
+                .log-sign-up {
+                    position: relative;
+                    right: -72px;
+                }
+            }
+        }
+
+        main {
+            section {
+                h2 {
+                    font-size: 22px;
+                    margin-top: 94px;
+                }
+
+                .how-it-works {
+                    width: 748px;
+
+                    .step-1 {
+                        width: 236px;
+                        padding-left: 20px;
+                        padding-bottom: 15px;
+
+                        .text-size-1 {
+                            width: 187px;
+
+                            .text-step-1 {
+                                line-height: 14px;
+                                padding-bottom: 30px;
+                                padding-top: 46px;
+                            }
+                        }
+                    }
+
+                    .how-it-works-2 {
+                        .step-2 {
+                            width: 236px;
+                            padding-left: 20px;
+                            padding-bottom: 15px;
+
+                            .text-size-2 {
+                                width: 187px;
+
+                                .text-step-2 {
+                                    line-height: 14px;
+                                    padding-bottom: 24px;
+                                    padding-top: 16px;
+                                }
+                            }
+                        }
+                    }
+
+                    .step-3 {
+                        width: 236px;
+                        padding-left: 20px;
+                        padding-bottom: 15px;
+
+                        .text-size-3 {
+                            width: 187px;
+
+                            .text-step-3 {
+                                line-height: 14px;
+                                padding-bottom: 30px;
+                                padding-top: 45px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .meet-partner {
+                width: 492px;
+                height: 605px;
+                margin-top: 33px;
+
+                h3 {
+                    font-size: 22px;
+                }
+
+                .list-meet-partner {
+
+                    .line-1 {
+                        width: 472px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+
+                        .bradley-hunter {
+                            width: 236px;
+                        }
+
+                        .marie-bennett {
+                            width: 236px;
+                            margin-top: 55px;
+                        }
+                    }
+
+                    .line-2 {
+                        width: 472px;
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 20px;
+
+                        .diana-wells {
+                            width: 236px;
+
+                        }
+
+                        .christopher-pierce {
+                            width: 236px;
+                            margin-top: 55px;
+
+                            .text-christopher-pierce {
+                                margin-top: 22px;
+                            }
+                        }
+                    }
+                }
+
+                .button-meet-partner {
+                    margin-top: 40px;
+                }
+            }
+
+            .ideas {
+                width: 748px;
+
+                h4 {
+                    font-size: 22px;
+                }
+
+                article {
+
+                    .foto-section-1 {
+                        width: 748px;
+
+                        .sports-and-activis {
+                            width: 236px;
+                            background-position: center;
+
+                            .text-center {
+                                width: 150px;
+                                text-align: center;
+                                margin-bottom: 28px;
+                            }
+                        }
+
+                        .wellness-and-health {
+                            width: 236px;
+                            background-position: center;
+                            text-align: center;
+                        }
+
+                        .extreme-sports {
+                            width: 236px;
+                            background-position: center;
+                        }
+                    }
+
+                    .foto-section-2 {
+                        width: 748px;
+
+                        .games {
+                            width: 236px;
+                            background-position: center;
+                        }
+
+                        .culture-and-education {
+                            width: 492px;
+                            background-position: center;
+                        }
+                    }
+
+                    .foto-section-3 {
+                        width: 748px;
+
+                        .enjomet-and-relaxation {
+                            width: 492px;
+                        }
+
+                        .trevelling {
+                            width: 236px;
+                        }
+                    }
+
+                }
+            }
+
+            .interests {
+                h5 {
+                    font-size: 22px
+                }
+            }
+        }
+
+        .footer {
+            width: 768px;
+            margin-top: 100px;
+
+            .red-line {
+                width: 768px;
+            }
+
+            .footer-article {
+                display: flex;
+                justify-content: space-around;
+
+                .block-1 {
+                    width: 103px;
+                }
+
+                .block-2 {
+                    width: 233px;
+
+                    .footer-list-2 {
+                        display: none;
+                    }
+                }
+
+                .block-3 {
+                    width: 104px;
+                    padding-left: 9px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    body {
+        .header {
+            width: 320px;
+            height: 540px;
+            background-position: center;
+            background-size: cover;
+
+            .header-centr {
+                width: 280px;
+                height: 189px;
+                padding-bottom: 0px;
+                padding-left: 59px;
+
+                .center {
+                    h1 {
+                        font-size: 30px;
+                        margin-top: 47px;
+                    }
+
+                    .header-text {
+                        font-size: 18px;
+                        margin-top: 6px;
+                        line-height: 25px;
+                    }
+
+                    .header-form {
+                        margin-top: 14px;
+
+                        .header-button {
+                            width: 280px;
+                        }
+                    }
+                }
+            }
+
+            .navbar {
+                padding-top: 20px;
+                display: flex;
+                flex-direction: column-reverse;
+
+                .dreamshare {
+                    left: 11px;
+                    margin-top: 97px;
+                }
+
+                .log-sign-up {
+                    right: 0px;
+
+                    .header-login {
+                        color: white;
+                    }
+
+                    .header-sign-up {
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        main {
+            section {
+                h2 {
+                    font-size: 22px;
+                    margin-top: 34px;
+                }
+
+                .how-it-works {
+                    width: 300px;
+                    height: 740px;
+                    flex-direction: column;
+                    margin-top: -20px;
+
+                    .step-1 {
+                        width: 300px;
+                        height: 240px;
+                        padding-left: 20px;
+                        padding-bottom: 15px;
+
+                        .text-size-1 {
+                            width: 250px;
+
+                            .text-step-1 {
+                                line-height: 14px;
+                                padding-bottom: 25px;
+                                padding-top: 46px;
+                            }
+                        }
+                    }
+
+                    .how-it-works-2 {
+                        .step-2 {
+                            width: 300px;
+                            height: 240px;
+                            padding-left: 20px;
+                            padding-bottom: 15px;
+                            background-position: bottom;
+
+                            .text-size-2 {
+                                width: 250px;
+
+                                .text-step-2 {
+                                    line-height: 14px;
+                                    padding-bottom: 24px;
+                                    padding-top: 30px;
+                                }
+                            }
+                        }
+                    }
+
+                    .step-3 {
+                        width: 300px;
+                        height: 240px;
+                        padding-left: 20px;
+                        padding-bottom: 15px;
+                        background-position: bottom;
+
+                        .text-size-3 {
+                            width: 250px;
+
+                            .text-step-3 {
+                                line-height: 14px;
+                                padding-bottom: 25px;
+                                padding-top: 46px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .meet-partner {
+                width: 300px;
+                height: 1100px;
+                margin-top: 36px;
+
+                h3 {
+                    font-size: 22px;
+                }
+
+                .list-meet-partner {
+                    flex-direction: column;
+
+                    .line-1 {
+                        width: 236px;
+                        margin: -20px auto;
+
+                        .bradley-hunter {
+                            width: 236px;
+                        }
+
+                        .marie-bennett {
+                            width: 236px;
+                            margin-top: 15px;
+                        }
+                    }
+
+                    .line-2 {
+                        width: 236px;
+                        margin: 55px auto;
+
+                        .diana-wells {
+                            width: 236px;
+                        }
+
+                        .christopher-pierce {
+                            width: 236px;
+                            margin-top: 35px;
+
+                            .text-christopher-pierce {
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                }
+
+                .button-meet-partner {
+                    margin-top: -38px;
+                    width: 280px;
+                }
+            }
+
+            .ideas {
+                width: 300px;
+                height: 1084px;
+                margin: -62px auto;
+
+                h4 {
+                    font-size: 22px;
+                    width: 250px;
+                    margin: 0 auto;
+                }
+
+                article {
+
+                    .foto-section-1 {
+                        width: 300px;
+                        height: 380px;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        margin-top: 33px;
+
+                        .sports-and-activis {
+                            width: 300px;
+                            height: 120px;
+                            background-position: center;
+                            border-radius: 4px;
+
+                            .text-center {
+                                width: 300px;
+                                height: 120px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin-bottom: 0px;
+                            }
+                        }
+
+                        .wellness-and-health {
+                            width: 300px;
+                            height: 120px;
+                            background-position: center;
+                            text-align: center;
+                            border-radius: 4px;
+                        }
+
+                        .extreme-sports {
+                            width: 300px;
+                            height: 120px;
+                            background-position: center;
+                            border-radius: 4px;
+                        }
+                    }
+
+                    .foto-section-2 {
+                        width: 300px;
+                        height: 250px;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        margin-top: 10px;
+
+                        .games {
+                            width: 300px;
+                            height: 120px;
+                            background-position: center;
+                            border-radius: 4px;
+                        }
+
+                        .culture-and-education {
+                            width: 300px;
+                            height: 120px;
+                            background-position: center;
+                            border-radius: 4px;
+                        }
+                    }
+
+                    .foto-section-3 {
+                        width: 300px;
+                        height: 250px;
+                        flex-direction: column;
+                        border-radius: 4px;
+                        margin-top: 10px;
+                        justify-content: space-between;
+
+                        .enjomet-and-relaxation {
+                            width: 300px;
+                            height: 120px;
+                            border-radius: 4px;
+                        }
+
+                        .trevelling {
+                            width: 300px;
+                            height: 120px;
+                            border-radius: 4px;
+                        }
+                    }
+                }
+            }
+
+            .interests {
+                width: 300px;
+
+                h5 {
+                    font-size: 22px
+                }
+
+                .interests-form {
+                    .interests-form-text {
+                        margin-top: 15px;
+                    }
+
+                    .form-place {
+                        flex-direction: column;
+                        margin: 11px auto;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .search-button {
+                            width: 280px;
+                        }
+
+                        .interests-button-submit {
+                            width: 280px;
+                            margin-top: 10px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer {
+            width: 320px;
+            margin-top: 74px;
+
+            .red-line {
+                width: 320px;
+            }
+
+            .footer-article {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
+                .block-1 {
+                    width: 320px;
+                    height: 52px;
+
+                    .footer-dreamshare {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 3px;
+                    }
+                }
+
+                .block-2 {
+                    width: 320px;
+                    height: 107px;
+                    padding-top: 0px;
+                    display: flex;
+                    flex-direction: column;
+                    padding-top: -25px;
+
+                    .footer-list {
+                        .footer-company {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                        ul {
+                            width: 200px;
+                            display: flex;
+                            margin-left: 65px;
+                            margin-top: -4px;
+                            padding-bottom: 6px;
+
+                            li {
+                                margin-right: 14px;
+                                display: flex;
+                                flex-direction: column;
+                            }
+
+                            .flex-li {
+                                display: none;
+                                width: 320px;
+                                margin-left: 65px;
+                                margin-top: -4px;
+                            }
+                        }
+                    }
+
+                    .footer-list-2 {
+                        display: block;
+
+                        margin-left: 83px;
+                        padding-bottom: 11px;
+
+                        .footer-a {
+                            font-family: 'Roboto';
+                            font-weight: 300;
+                            text-decoration: none;
+                            font-size: 14px;
+                            color: #999999;
+                            margin-right: 8px;
+                        }
+
+                        .footer-a-2 {
+                            font-family: 'Roboto';
+                            font-weight: 300;
+                            text-decoration: none;
+                            font-size: 14px;
+                            color: #999999;
+                        }
+                    }
+
+                    .partners {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-bottom: 110px;
+                    }
+                }
+
+                .block-3 {
+                    position: relative;
+                    width: 320px;
+                    padding-left: 0px;
+                    padding-top: 0px;
+
+                    .content-block-3 {
+                        width: 320px;
+
+                        .design {
+                            text-align: center;
+                            margin-left: 3px;
+                        }
+
+                        .logo-design {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
