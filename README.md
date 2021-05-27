@@ -26,7 +26,7 @@
 ## Screenshots
 > Strona początkowa
 ![1](https://user-images.githubusercontent.com/61744465/119872607-f7f94080-bf23-11eb-8447-694a3dbdfc11.png)
-![3](https://user-images.githubusercontent.com/61744465/119870907-283fdf80-bf22-11eb-80c7-6ab8f900aa42.png).
+![3](https://user-images.githubusercontent.com/61744465/119870907-283fdf80-bf22-11eb-80c7-6ab8f900aa42.png)
 
 
 ## Setup
