@@ -1,4 +1,4 @@
-# Projekt "Szablon-Strona-Internetowa"
+# Projekt "Dizajn strony internetowej"
 
 
 ## Table of Contents
